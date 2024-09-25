@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { HomePageModule } from './home/home.module';
-import { LoginComponent } from './home/pages/login/login.component';
-import { RegisterComponent } from './home/pages/register/register.component';
-import { RegisteredComponent } from './home/pages/registered/registered.component';
+import { LoginComponent } from './alarm-app/pages/login/login.component';
+import { RegisterComponent } from './alarm-app/pages/register/register.component';
+import { RegisteredComponent } from './alarm-app/pages/registered/registered.component';
 
 const routes: Routes = [
   {
@@ -25,7 +24,7 @@ const routes: Routes = [
   },
   {
     path: 'app',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule),
+    loadChildren: () => import('./alarm-app/alarm-app.module').then(m => m.AlarmAppModule),
   },
   {
     path: '**',
