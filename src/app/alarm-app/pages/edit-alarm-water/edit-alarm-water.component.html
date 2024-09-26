@@ -1,0 +1,100 @@
+<div class="grid grid-rows-10 h-full w-full">
+  <div class="w-full row-span-3">
+    <img src="assets/header.png" alt="" class="w-full h-full">
+  </div>
+  <div class="w-full row-span-6 items-center justify-center">
+    <div class="grid grid-rows-6">
+      <p class="row-span-1 text-center text-5xl flex items-center justify-center !mt-12">
+        Editar Alarma
+      </p>
+      <div class="row-span-5 h-full w-full  flex items-start justify-center">
+
+
+
+        <div class="flex flex-col w-4/5 h-5/5 rounded-lg bg-[#f2f3fa] items-start justify-center">
+
+          <!-- Nombre input con valor predeterminado "tomar agua" -->
+          <div class="w-full">
+            <mat-form-field class="w-full">
+              <mat-label>Nombre</mat-label>
+              <input matInput value="Despertar" />
+              <mat-hint>Tomar agua</mat-hint>
+            </mat-form-field>
+          </div>
+
+          <section class="example-section flex items-center space-x-4">
+            <mat-radio-group class="example-margin">
+              <mat-radio-button class="example-margin" value="T_D" checked>T_D</mat-radio-button>
+              <mat-radio-button class="example-margin" value="L-V">L-V</mat-radio-button>
+              <mat-radio-button class="example-margin" value="FDS">FDS</mat-radio-button>
+            </mat-radio-group>
+          </section>
+
+
+          <section class="example-section flex items-center space-x-4">
+            <mat-radio-group class="example-margin">
+              <mat-radio-button class="example-margin" value="1" checked>Cada Hora</mat-radio-button>
+              <mat-radio-button class="example-margin" value="2">Cada Dos Horas</mat-radio-button>
+              <mat-radio-button class="example-margin" value="3">Cada Tres Horas</mat-radio-button>
+            </mat-radio-group>
+          </section>
+
+
+
+          <!-- Tipo Dropdown usando matNativeControl -->
+          <div class="w-full">
+            <mat-form-field class="w-full">
+              <mat-label>Tipo</mat-label>
+              <select matNativeControl required>
+                <option value="matematico">Matemático</option>
+                <option value="rompecabezas">Rompecabezas</option>
+                <option value="memoria">Memoria</option>
+              </select>
+              <mat-hint>Seleccione el tipo de desafío</mat-hint>
+            </mat-form-field>
+          </div>
+
+          <!-- Tono Dropdown usando matNativeControl -->
+          <div class="w-full">
+            <mat-form-field class="w-full">
+              <mat-label>Tono</mat-label>
+              <select matNativeControl required>
+                <option value="nubes">Nubes</option>
+                <option value="marimba">Marimba</option>
+                <option value="predeterminado">Predeterminado</option>
+                <option value="personalizado">Personalizado</option>
+                <option value="silencio">Silencio</option>
+              </select>
+              <mat-hint>Seleccione el tono de la alarma</mat-hint>
+            </mat-form-field>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full row-span-1 bg-[#eceef4]">
+    <div class="grid grid-cols-3 w-full h-full">
+      <div class="flex flex-col w-full h-full items-center justify-center font-normal text-xs text-center text-gray-900">
+        <span class="material-symbols-outlined mb-2 px-2 rounded-xl hover:bg-[#dbdde4]" routerLink="/app/my-alarms">
+          arrow_back
+        </span>
+        Atras
+      </div>
+      <div class="flex flex-col w-full h-full items-center justify-center font-normal text-xs text-center text-gray-900">
+        <span class="material-symbols-outlined mb-2 px-2 rounded-xl hover:bg-[#dbdde4]" routerLink="/app/my-alarms">
+          check
+        </span>
+        Guardar
+      </div>
+      <div class="flex flex-col w-full h-full items-center justify-center font-normal text-xs text-center text-gray-900">
+        <span class="material-symbols-outlined mb-2 px-2 rounded-xl hover:bg-[#dbdde4]" routerLink="/login">
+          arrow_forward
+        </span>
+        Previsualizar
+      </div>
+    </div>
+  </div>
+</div>

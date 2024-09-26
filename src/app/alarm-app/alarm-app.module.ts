@@ -13,6 +13,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { EditAlarmComponent } from './pages/edit-alarm/edit-alarm.component';
+import { EditAlarmWaterComponent } from './pages/edit-alarm-water/edit-alarm-water.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { EditAlarmComponent } from './pages/edit-alarm/edit-alarm.component';
     RegisteredComponent,
     LayoutComponent,
     MyAlarmsComponent,
-    EditAlarmComponent
+    EditAlarmComponent,
+    EditAlarmWaterComponent
   ],
   imports: [
     CommonModule,

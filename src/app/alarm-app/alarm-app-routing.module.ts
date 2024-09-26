@@ -4,6 +4,7 @@ import { LayoutComponent } from './pages/layout/layout.component';
 import { MenuHomeComponent } from './pages/menu-home/menu-home.component';
 import { MyAlarmsComponent } from './pages/my-alarms/my-alarms.component';
 import { EditAlarmComponent } from './pages/edit-alarm/edit-alarm.component';
+import { EditAlarmWaterComponent } from './pages/edit-alarm-water/edit-alarm-water.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
       {
         path: "edit-alarm",
         component: EditAlarmComponent
+      },
+      {
+        path: "edit-alarm-water",
+        component: EditAlarmWaterComponent
       },
       {
         path: '**',
