@@ -5,6 +5,9 @@ import { MenuHomeComponent } from './pages/menu-home/menu-home.component';
 import { MyAlarmsComponent } from './pages/my-alarms/my-alarms.component';
 import { EditAlarmComponent } from './pages/edit-alarm/edit-alarm.component';
 import { EditAlarmWaterComponent } from './pages/edit-alarm-water/edit-alarm-water.component';
+import { Challenge1Component } from './pages/challenge1/challenge1.component';
+import { Challenge2Component } from './pages/challenge2/challenge2.component';
+import { RingingComponent } from './pages/ringing/ringing.component';
 
 const routes: Routes = [
   {
@@ -22,6 +25,18 @@ const routes: Routes = [
       {
         path: "edit-alarm-water",
         component: EditAlarmWaterComponent
+      },
+      {
+        path: "ringing-alarm",
+        component: RingingComponent
+      },
+      {
+        path: "challenge1",
+        component: Challenge1Component
+      },
+      {
+        path: "challenge2",
+        component: Challenge2Component
       },
       {
         path: '**',

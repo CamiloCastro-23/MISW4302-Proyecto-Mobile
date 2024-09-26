@@ -14,6 +14,9 @@ import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { EditAlarmComponent } from './pages/edit-alarm/edit-alarm.component';
 import { EditAlarmWaterComponent } from './pages/edit-alarm-water/edit-alarm-water.component';
+import { RingingComponent } from './pages/ringing/ringing.component';
+import { Challenge1Component } from './pages/challenge1/challenge1.component';
+import { Challenge2Component } from './pages/challenge2/challenge2.component';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { EditAlarmWaterComponent } from './pages/edit-alarm-water/edit-alarm-wat
     LayoutComponent,
     MyAlarmsComponent,
     EditAlarmComponent,
-    EditAlarmWaterComponent
+    EditAlarmWaterComponent,
+    RingingComponent,
+    Challenge1Component,
+    Challenge2Component
   ],
   imports: [
     CommonModule,
