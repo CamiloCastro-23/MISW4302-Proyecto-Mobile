@@ -13,6 +13,8 @@ import {provideNativeDateAdapter} from '@angular/material/core';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+
 
 @NgModule({
   declarations: [],
@@ -31,7 +33,8 @@ import {MatRadioModule} from '@angular/material/radio';
     MatDatepickerModule,
     MatCheckboxModule,
     NgxMaterialTimepickerModule,
-    MatRadioModule
+    MatRadioModule,
+    MatSlideToggleModule
   ]
 })
 export class MaterialModule { }

@@ -17,6 +17,7 @@ import { EditAlarmWaterComponent } from './pages/edit-alarm-water/edit-alarm-wat
 import { RingingComponent } from './pages/ringing/ringing.component';
 import { Challenge1Component } from './pages/challenge1/challenge1.component';
 import { Challenge2Component } from './pages/challenge2/challenge2.component';
+import { AsistenciaComponent } from './pages/asistencia/asistencia.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { Challenge2Component } from './pages/challenge2/challenge2.component';
     EditAlarmWaterComponent,
     RingingComponent,
     Challenge1Component,
-    Challenge2Component
+    Challenge2Component,
+    AsistenciaComponent
   ],
   imports: [
     CommonModule,

@@ -8,6 +8,7 @@ import { EditAlarmWaterComponent } from './pages/edit-alarm-water/edit-alarm-wat
 import { Challenge1Component } from './pages/challenge1/challenge1.component';
 import { Challenge2Component } from './pages/challenge2/challenge2.component';
 import { RingingComponent } from './pages/ringing/ringing.component';
+import { AsistenciaComponent } from './pages/asistencia/asistencia.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
       {
         path: "challenge2",
         component: Challenge2Component
+      },
+      {
+        path: "asistencia",
+        component: AsistenciaComponent
       },
       {
         path: '**',
