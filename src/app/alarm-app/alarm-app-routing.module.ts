@@ -17,31 +17,33 @@ const routes: Routes = [
     children: [
       {
         path: 'my-alarms',
-        component: MyAlarmsComponent
+        component: MyAlarmsComponent,
+        data: { title: 'My Alarms' }
       },
       {
-        path: "edit-alarm",
-        component: EditAlarmComponent
+        path: 'edit-alarm',
+        component: EditAlarmComponent,
+        data: { title: 'Edit Alarm' }
       },
       {
-        path: "edit-alarm-water",
-        component: EditAlarmWaterComponent
+        path: 'edit-alarm-water',
+        component: EditAlarmWaterComponent,
+        data: { title: 'Edit Water Alarm' }
       },
       {
-        path: "ringing-alarm",
-        component: RingingComponent
+        path: 'challenge1',
+        component: Challenge1Component,
+        data: { title: 'Challenge 1' }
       },
       {
-        path: "challenge1",
-        component: Challenge1Component
+        path: 'ringing-alarm',
+        component: RingingComponent,
+        data: { title: 'Ringing' }
       },
       {
-        path: "challenge2",
-        component: Challenge2Component
-      },
-      {
-        path: "asistencia",
-        component: AsistenciaComponent
+        path: 'challenge2',
+        component: Challenge2Component,
+        data: { title: 'Challenge 2' }
       },
       {
         path: '**',
