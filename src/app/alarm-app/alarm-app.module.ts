@@ -12,6 +12,7 @@ import { MyAlarmsComponent } from './pages/my-alarms/my-alarms.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { EditAlarmComponent } from './pages/edit-alarm/edit-alarm.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
     RegisterComponent,
     RegisteredComponent,
     LayoutComponent,
-    MyAlarmsComponent
+    MyAlarmsComponent,
+    EditAlarmComponent
   ],
   imports: [
     CommonModule,

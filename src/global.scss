@@ -44,3 +44,20 @@
 
 @import "../node_modules/@angular/material/prebuilt-themes/azure-blue.css";
 
+
+:root {
+  --mdc-filled-text-field-container-color: #d1e4ff;
+  --button-color: #d1e4ff;
+  --dial-background-color: #d1e4ff;
+  --dial-editable-active-color: #d1e4ff;
+  --clock-hand-color: #d1e4ff;
+}
+
+
+::ng-deep {
+  --button-color: #d1e4ff;
+  --dial-background-color: #d1e4ff;
+  --clock-hand-color: #d1e4ff;
+}
+
+

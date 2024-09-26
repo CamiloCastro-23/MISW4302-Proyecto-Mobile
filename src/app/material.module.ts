@@ -5,14 +5,20 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
-import { MatFormFieldModule } from '@angular/material/form-field';
-
-
+import {MatSelectModule} from '@angular/material/select';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {provideNativeDateAdapter} from '@angular/material/core';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
+    NgxMaterialTimepickerModule
   ],
   exports: [
     MatInputModule,
@@ -20,7 +26,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatIconModule,
     MatDividerModule,
     MatButtonModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatSelectModule,
+    MatDatepickerModule,
+    MatCheckboxModule,
+    NgxMaterialTimepickerModule,
+    MatRadioModule
   ]
 })
 export class MaterialModule { }
