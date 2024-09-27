@@ -73,4 +73,4 @@ ionic capacitor open android
 
 Nota: El dispositivo de prueba en Android Studio es PIXEL 5 Api 34
 
-Seguir el video de Navegacion del proyecto: 
+Seguir el video de Navegacion del proyecto: https://youtu.be/sNqyZhiOJ7s
