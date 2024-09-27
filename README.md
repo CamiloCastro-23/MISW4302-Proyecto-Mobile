@@ -53,13 +53,24 @@ npm install
 ionic serve
 ```
 
-Nota: En caso de ser necesario, ejecute el siguiente comando y reintente habilitar el modo server de la aplicación:
+Nota: En caso de ser necesario, ejecute el siguiente comando y reintente el paso 4:
 
 ```ocaml
-npm install -g @angular/cli
+npm install -g @ionic/cli
 ```
 
+5. Ejecute el siguiente comando:
 
-5. Visualizar en el Navegador con la resolucion ***1366 x 768***
+```ocaml
+ionic capacitor copy android
+```
 
-6. Seguir el video de Navegacion del proyecto: https://youtu.be/soJnRR4Dy-8
+6. Ejecute el siguiente comando:
+
+```ocaml
+ionic capacitor open android
+```
+
+7. Visualizar en el Navegador con la resolucion ***393x851***
+
+8. Seguir el video de Navegacion del proyecto: 
