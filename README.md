@@ -71,6 +71,6 @@ ionic capacitor copy android
 ionic capacitor open android
 ```
 
-7. Visualizar en el Navegador con la resolucion ***393x851***
+Nota: El dispositivo de prueba en Android Studio es PIXEL 5 Api 34
 
-8. Seguir el video de Navegacion del proyecto: 
+Seguir el video de Navegacion del proyecto: 
